@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 150px;
+    height: 100vh;
+    background-color: #F26A8D;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 20px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    background-color: #F26A8D;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.pag {
+    margin-left: 160px;
+}
+.logo{
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+    height: auto; 
+}
+.image-container {
+    width: 100%; /* La imagen se ajustará al ancho del contenedor */
+    text-align: center; /* Centra la imagen horizontalmente si es necesario */
+}
+
+.footer{
+    color:#880D1E;
+    margin-left: 160px;
+}
